@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
-ruby '2.3.0'
+ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.8'
 # Use sqlite3 as the database for Active Record
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3' 
   gem 'rspec-rails', '2.13.1'
 end
 group :test do
